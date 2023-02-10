@@ -321,7 +321,7 @@ label{
     display: none;
 }
 /* ================================ WEBPAGE RESPONSIVENESS =========================== */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 428px){
     /* ===================== menu ================== */
     label{
         float: right;
