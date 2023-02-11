@@ -343,6 +343,9 @@ label{
         opacity: 0;
         transition: .3s ease;
     }
+    nav ul li{        
+        margin: 5px;
+    }
     nav ul li a, nav label{
         color: black;
     }
@@ -368,7 +371,7 @@ label{
         background-image: url('images/background-small.png');
     }
     .content{
-        margin-top:45%;
+        margin-top:40%;
         margin-left: 10px;
         font-size: 15px;
     }
