@@ -327,7 +327,7 @@ label{
         float: right;
         display: block;
         margin-right: 40px;
-        margin-top: 50px;
+        margin-top: 45px;
         padding-top: 10px;
     }
     nav{
@@ -351,6 +351,7 @@ label{
     }
     nav ul{
         flex-direction: column;
+        margin-left: 20px;
     }
     nav label{
         margin-top: -2px;
@@ -399,12 +400,23 @@ label{
         margin-right: auto;
     }
     .buttons .button-cont{
-        margin-top: 150px;
-        margin-left: 65px;
+        margin-top: 120px;
+        margin-left: 35px;
         font-size: 15px;
-        width: 100px;
+        font-weight: bold;
+        width: 150px;
         height: 70px; 
         padding: 12px 50px;
+        transform:rotate(0);
+        border: 0px;
+
+    }
+    .button-cont:after{
+        border: 0px;
+        outline: 3px solid white;
+        bottom: 0px;
+        left: 0px;
+        border-radius: 5px;
     }
     /* ===================== second page ======================= */
     .proj-content:before{
