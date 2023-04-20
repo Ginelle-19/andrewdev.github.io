@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/208b3c70bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>am.dev</title>
+</head>
+<body>
+    <section class="home" id="home">
+    <div class="loader-container">
+    <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="">
+            <nav class="primary-navigation">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-page">About</a></li>
+                    <li><a href="#portfolio-page">Projects</a></li>
+                    <li><a href="#contact-me-page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- <section> -->
+            <img src="images/my-pic.png" alt="">
+            <div class="body-container">
+                <div class="contents">
+                <h1 >Hi, I'm Andrew.</h1>
+                <h3>Aspiring Web Developer/Designer</h3>
+                <p>I am a student at Holy Angel University who aims to enhance my skills as a developer.</p>
+            </div>
+          <div class="socials">
+                <nav class="secondary-navigation">
+                    <ul class="sec-nav-links">
+                        <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/github.png" alt=""></a></li>
+                        <li><a href="#"><img src="images/email.png" alt=""></a></li>
+                    </ul>
+                </nav>
+          </div>
+        <!-- </section> -->
+    </main>
+    <script>
+        setTimeout(function(){
+            $('.loader-container').fadeToggle();
+        },2500);
+    </script>
+    </section>
+    <section class="about-page" id="about-page">
+        <h1>About me</h1>
+            <article class="about-page-contents">
+                <div class="about-goals">
+                    <h3>My Goals: </h3>
+                    <p>As a third-year student, I want to ehance my skills further
+                        to prepare myself before graduating and becoming a professional Web Developer.
+                        Furthermore, I see myself becoming a successful developer in a well known company
+                        that will help me gain a handful of experiences and knowledge not only in the 
+                        field of IT but also as a good human being. 
+                    </p>
+                </div>
+            </article>
+            <article class="about-page-contents">
+                <div class="about-skills">
+                    <h3>My Skills: </h3>
+                    <div class="skills-container">
+                        <h2>Frontend</h2>
+                        <div class="flex-box">
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-html-5-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-css3-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-javascript-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                         </div> <!-- flex box -->
+
+                        <h2>Backend</h2>
+                        <div class="flex-box">
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-php-logo-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>PhP</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h2>Others</h2>
+                        <div class="flex-box">
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-adobe-photoshop-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>Photoshop</span>
+                                </div>
+                            </div>
+
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-wordpress-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>Wordpress</span>
+                                </div>
+                            </div>
+
+                            <div class="flex-box-cont">
+                                <div class="icon">
+                                    <img src="images/icons8-github-48.png" alt="">
+                                </div>
+                                <div class="text">
+                                    <span>Github</span>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="" alt="" id="random">
+                    </div> <!-- skills-container -->
+                </div>
+            </article>
+            <article class="about-page-contents">
+            <div class="about-details">
+                <h3>Personal Details</h3>
+                <p>I am Andrew Macapagal, a student at Holy Angel University and an aspiring
+                    Web Developer. I have the basic knowledge about creating sites and the 
+                    tools to build a website from scratch. I am capable of using HTML, CSS,
+                    and JavaScript to make your dream websites come true.
+                </p>
+            </div>
+        </article>
+         <div class="img-grad">
+                <img src="images/grad.png" alt="">
+            </div>
+    </section>
+    <section class="portfolio-page" id="portfolio-page">
+        <h1>Projects</h1>
+        <div class="port-container">
+            <div class="port-contents">
+                <img src="images/under_cons.png" alt="">
+                <h3>Page Under Construction</h3>
+                <p>This page is still on progress, however, I assure you that I am doing my best to finish this as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me-page" id="contact-me-page">
+        <h1>Contact me: </h1>
+        <div class="contact-container">
+            <form>
+                <input type="text" class="input-field" placeholder="Name">
+                <input type="email" class="input-field" placeholder="Email">
+                <input type="text" class="input-field" placeholder="Subject">
+                <textarea type="text" class="input-field text-area-field" placeholder="Message"></textarea> 
+                <button type="button" class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="contact-details">
+            <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i> +63 998-237-5385</p>
+            <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> andrew.macapagal19@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> Purok Saudi, Mabiga, Mabalacat City, Pampanga</p>
+            <h3>Follow my Socials</h3>
+        </div>
+    </section>
+</body>
+</html>
