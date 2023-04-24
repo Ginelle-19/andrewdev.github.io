@@ -103,6 +103,10 @@ select {
 
 /* global css */
 /* HEADER */
+.home{
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+}
 body{
     background-color: var(--clr-primary-400);
      /* display: none; */
@@ -121,7 +125,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 10%;
+    padding: 2em 3%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .container img{
@@ -148,12 +152,13 @@ header{
 }
 .nav-links li a:hover{
   scale: 1.1;
+  color:#ffb700;
 }
 .primary-navigation ul li a::after{
 	content:'';
 	width: 0;
 	height:3px;
-	background: var(--clr-primary-100);
+	background: #ffb700;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -165,7 +170,7 @@ header{
 }
 .primary-navigation ul li a:hover::after{
 	width:100%;
-    transform: scale(1);
+  transform: scale(1);
 }
 /* BODY  */
 main img{
@@ -174,7 +179,7 @@ main img{
     position: absolute;
     top: 25vh;
     left: 15vw;
-    transform: perspective(200px) rotate3d(0, 1, 0, 6deg);
+    /* transform: perspective(200px) rotate3d(0, 1, 0, 10deg); */
   
   }
 .contents{
@@ -188,12 +193,15 @@ main img{
     font-family: var(--ff-primary);
     color: var(--clr-primary-100);
     overflow: hidden; 
-    border-right: .087em solid var(--clr-primary-100); 
+    /* border-right: .087em solid var(--clr-primary-100);  */
     white-space: nowrap; 
     margin: 0 auto; 
     animation: 
       typing 7s steps(40, end),
       blink-caret .75s step-end infinite;
+}
+.contents h1 span{
+  color:#ffb700;
 }
 @keyframes typing {
     from { width: 0 }
@@ -366,13 +374,13 @@ main img{
   background-attachment: fixed;
   animation: square-animation 10s ease-in-out infinite both;
  }
- 
  .loader-square:nth-of-type(0) {
   animation-delay: 0s;
  }
  
  .loader-square:nth-of-type(1) {
   animation-delay: -1.4285714286s;
+  background: #ffb700;
  }
  
  .loader-square:nth-of-type(2) {
@@ -381,6 +389,7 @@ main img{
  
  .loader-square:nth-of-type(3) {
   animation-delay: -4.2857142857s;
+  background: #ffb700;
  }
  
  .loader-square:nth-of-type(4) {
@@ -389,6 +398,7 @@ main img{
  
  .loader-square:nth-of-type(5) {
   animation-delay: -7.1428571429s;
+  background: #ffb700;
  }
  
  .loader-square:nth-of-type(6) {
@@ -670,6 +680,7 @@ main img{
   max-width: 600px;
   max-height: 100%;
   min-height: 500px;
+  border-radius: 20px;
   background-color: var(--clr-primary-400);
   top: 55%;
   left: 40%;
