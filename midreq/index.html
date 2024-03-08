@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/208b3c70bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>am.dev</title>
+</head>
+<body>
+    <section class="home page-size" id="home">
+    <div class="loader-container">
+    <div class="loader">
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        <div class="loader-square"></div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <nav class="primary-navigation">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-page">About</a></li>
+                    <li><a href="#portfolio-page">Projects</a></li>
+                    <li><a href="#contact-me-page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- <section> -->
+            <img src="images/my_pic.png" alt="" data-aos="zoom-out-up">
+
+
+            <div class="body-container">
+                <div class="contents">
+                <h1 >hello, I'm<span> Andrew.</span></h1>
+                <h1>hello, I'm <span> Carl.</span></h1>
+                <h3>We are into web developing</h3>
+                <p>We are students at Holy Angel University who aims to enhance our skills as a developer.</p>
+            </div>
+            <div class="second_image">
+                <img src="images/carl_image.png" alt="" data-aos="zoom-out-up" id="second_img">
+            </div>
+
+        <!-- </section> -->
+    </main>
+    <script>
+        setTimeout(function(){
+            $('.loader-container').fadeToggle();
+        }, 2000);
+    </script>
+    </section>
+    <section class="about-page .custom-page-size" id="about-page">
+         <h1>About me</h1>
+        <div class="about-container"> 
+            <div class="body-cont">
+                <div class="content">
+                    <div class="img-cont">
+                    <img src="images/accountable.png" alt="hahaha">
+                    </div>
+                    <h2>Responsible</h2>
+                    <p> I pride myself on being a responsible individual. I always take ownership of my tasks and ensure that they are completed to the best of my ability.</p>
+                </div>
+    
+                <div class="content">
+                    <div class="img-cont">
+                        <img src="images/adaptable.png" alt="hahaha">
+                        </div>
+                    <h2>Adaptable</h2>
+                    <p>I consider myself to be an adaptable person. I don't shy away from change and am always willing to adjust my approach to achieve success.</p>
+                </div>
+    
+                <div class="content">
+                    <div class="img-cont">
+                        <img src="images/attention.png" alt="hahaha">
+                    </div>
+                    <h2>Attention to Detail</h2>
+                    <p> I understand the importance of accuracy and take the time to review my work thoroughly to ensure that everything is correct.</p>
+                </div>
+    
+                <div class="content">
+                    <div class="img-cont">
+                        <img src="images/team.png" alt="hahaha">
+                        </div>
+                    <h2>Team Player</h2>
+                    <p> I believe that being a team player is crucial for success. I enjoy working with others, sharing ideas, and contributing to the team's goals.</p>
+                </div>
+            </div>
+
+            <div class="body-cont-2">
+                <div class="content-2 center-cont">
+                        <img src="images/grad.png" class="grad-img-size" alt="hahaha">
+                    <h3>Who are we: </h3>
+                    <p>We are Andrew Macapagal and Carl Gegante, students at Holy Angel University and an aspiring
+                        Web Developer. We have the basic knowledge about creating sites and the 
+                        tools to build a website from scratch. We are capable of using HTML, CSS,
+                        and JavaScript to make your dream websites come true.</p>
+                </div>
+                
+                <div class="content-2">
+                            <h3>Our Skills: </h3>
+                            <div class="skills-container">
+                                <h2>Frontend</h2>
+                                <div class="flex-box">
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-html-5-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>HTML</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-css3-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>CSS</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-javascript-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div> 
+    
+                                <h2>Backend</h2>
+                                <div class="flex-box">
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-php-logo-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>PhP</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2>Others</h2>
+                                <div class="flex-box">
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-adobe-photoshop-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>Photoshop</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-wordpress-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>Wordpress</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="flex-box-cont">
+                                        <div class="icon">
+                                            <img src="images/icons8-github-48.png" alt="">
+                                        </div>
+                                        <div class="text">
+                                            <span>Github</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                </div>
+            </div>
+        </div> 
+        
+    </section>
+    <section class="portfolio-page page-size" id="portfolio-page">
+        <h1>Projects</h1>
+        <div class="port-container">
+            <div class="port-contents">
+                <img src="images/under-cons.png" alt="">
+                <h3>Page Under Construction</h3>
+                <p>This page is still on progress, however, I assure you that I am doing my best to finish this as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me-page page-size" id="contact-me-page">
+        <h1>Contact us: </h1>
+        <div class="contact-container">
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSefAo2LH3lqcXz6fd7gbgCs2pBB-udUUOWBDjHVtNi5DFzOCQ/formResponse" method="POST">
+                <input  type="text" class="input-field" placeholder="Name" name="entry.2005620554">
+                <input type="email" class="input-field" placeholder="Email" name="entry.1045781291">
+                <input type="text" class="input-field" placeholder="Subject" name="entry.1065046570">
+                <input  type="text" class="input-field" placeholder="Phone Number" name="entry.1166974658">
+                <input  type="text" class="input-field" placeholder="Message" name="entry.839337160"> 
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+        <!-- <div class="contact-details">
+            <p><i class="fa-solid fa-phone fa-icon"></i> +63 998-237-5385</p>
+            <p><i class="fa-solid fa-envelope fa-icon"></i> andrew.macapagal19@gmail.com</p>
+            <p><i class="fa-solid fa-location-dot fa-icon"></i> Purok Saudi, Mabiga, Mabalacat City, Pampanga</p>
+            <h3>Follow my Socials</h3>
+            <span></span>
+            <p><i class="fa-brands fa-facebook fa-icon"></i> https://www.facebook.com/andrewmacss</p>
+            <p><i class="fa-brands fa-square-instagram fa-icon"></i> https://www.instagram.com/jineeeel</p>
+            <p><i class="fa-brands fa-twitter fa-icon"></i> www.twitter.com/cammmm1901</p>
+        </div> -->
+    </section>
+    <script>
+        AOS.init(
+            {duration: 2200,}
+        );
+      </script>
+</body>
+</html>

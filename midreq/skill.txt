@@ -1,0 +1,78 @@
+<!-- <article class="about-page-contents">
+                    <div class="about-skills">
+                        <h3>My Skills: </h3>
+                        <div class="skills-container">
+                            <h2>Frontend</h2>
+                            <div class="flex-box">
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-html-5-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>HTML</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-css3-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>CSS</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-javascript-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                            </div> 
+
+                            <h2>Backend</h2>
+                            <div class="flex-box">
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-php-logo-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>PhP</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2>Others</h2>
+                            <div class="flex-box">
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-adobe-photoshop-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>Photoshop</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-wordpress-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>Wordpress</span>
+                                    </div>
+                                </div>
+
+                                <div class="flex-box-cont">
+                                    <div class="icon">
+                                        <img src="images/icons8-github-48.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <span>Github</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> 
+                    </div>
+                </article> -->
